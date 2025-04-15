@@ -24,7 +24,8 @@ public class Utils extends RunnerCucumberTest {
         Random random = new Random();
         int minimo = 1;
         int maximo = 999999999;
-        int resultado = random.nextInt(maximo - minimo) + minimo;
+        int resultado = random.nextInt(maximo-minimo) + minimo;
+
         return email_inicial + resultado + email_final;
 
     }
