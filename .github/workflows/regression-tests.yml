@@ -2,7 +2,9 @@ name: Testes Regressivos Cadastro e Login
 
 on:
   pull_request:
-    branches: [ main ]
+    branches: [ main git add .github/workflows/regression-tests.yml
+      git commit -m "Corrige workflow do GitHub Actions"
+      git push origin main]
 
 jobs:
   RunTest:
