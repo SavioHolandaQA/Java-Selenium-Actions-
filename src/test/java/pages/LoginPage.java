@@ -37,7 +37,6 @@ public class LoginPage extends Utils {
     public void clicar_no_Botao_Login() {
         driver.findElement(By.id("btnLogin")).click();
 
-
     }
 
     public void valida_Mensagem_de_Login_com_Sucesso() {

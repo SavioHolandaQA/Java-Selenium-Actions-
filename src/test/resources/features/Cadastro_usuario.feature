@@ -9,7 +9,6 @@
      E clico no botao Cadastrar
      Entao deve exibir uma mensagem de sucesso
 
-
    Cenario: Fazer login com sucesso
      Dado que estou na tela de login
      Quando eu preencho os campos

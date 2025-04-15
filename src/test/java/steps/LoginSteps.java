@@ -10,7 +10,6 @@ public class LoginSteps extends RunnerCucumberTest {
 
     LoginPage loginPage = new LoginPage(driver);
 
-
     @Dado("^que estou na tela de login$")
     public void que_estou_na_tela_de_login() {
         loginPage.acessar_tela_login();
