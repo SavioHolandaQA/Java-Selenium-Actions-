@@ -2,7 +2,9 @@ name: Testes Regressivos Cadastro e Login
 
 on:
   pull_request:
-    branches: [ main ]
+    branches: [ main git add .github/workflows/regression-tests.yml
+      git commit -m "Corrige workflow do GitHub Actions"
+      git push origin main]
 
 jobs:
   RunTest:
@@ -22,7 +24,8 @@ jobs:
       - name: Instalar Chrome
         run: |
           wget https://dl.google.com/Linux/direct/google-chrome-stable_current_amd64.deb
-          sudo apt install ./google-chrome *. deb
+          sudo apt install -y ./google-chrome-stable_current_amd64.deb
+
 
       - uses: nanasess/setup-chromedriver@v1
       - run: |
