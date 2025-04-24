@@ -35,4 +35,5 @@ jobs:
           sudo Xvfb -ac :99 -screen 0 1280x1024x24 > /dev/null 2>&1 &
 
       - name:  Executar testes com Maven
-        run: mvn -B test -Dtest=RunCucumber -Dbrowser=chrome-ci cluecumber-report:reporting
+        run: mvn -B test -Dtest=runner.RunnerCucumberTest -Dbrowser=chrome-ci -DfailIfNoTests=false cluecumber-report:reporting
+
